@@ -38,7 +38,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="AdvancedPlatformer1"
+config/name="AdvancedPlatformer-Seg-16-30"
 run/main_scene="res://scene/management/level.tscn"
 config/icon="res://icon.png"
 

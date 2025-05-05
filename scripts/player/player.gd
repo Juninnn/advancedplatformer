@@ -48,7 +48,7 @@ func vertical_movement_env() -> void:
 		jump_count = 0
 
 	var jump_condition: bool = can_track_input and not attacking
-	if Input.is_action_just_pressed("jump") and jump_count < 2 and jump_condition:
+	if Input.is_action_just_pressed("ui_select") and jump_count < 2 and jump_condition:
 		jump_count += 1
 		if next_to_wall() and not is_on_floor():
 			velocity.y = wall_jump_speed
@@ -89,7 +89,7 @@ func gravity(delta: float) -> void:
 	if next_to_wall():
 		velocity.y += wall_gravity * delta
 		if velocity.y >= wall_gravity:
-			velocity = wall_gravity
+			velocity.y = wall_gravity
 	else:
 		velocity.y += delta * player_gravity
 		if velocity.y >= player_gravity:

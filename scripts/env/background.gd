@@ -13,7 +13,3 @@ func _physics_process(delta):
 		if get_child(index) is ParallaxLayer:
 			get_child(index).motion_offset.x -= delta * layer_speed[index]
 
-
-
-func _on_Player_body_entered(body):
-	pass # Replace with function body.

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rpg_village02_loop.mp3-a4c317d6f22f2d62981e013aeab208da.mp3str"
+
+[deps]
+
+source_file="res://assets/item/Packs/GothicVania-town-files/phaser-code/assets/sounds/rpg_village02_loop.mp3"
+dest_files=[ "res://.import/rpg_village02_loop.mp3-a4c317d6f22f2d62981e013aeab208da.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

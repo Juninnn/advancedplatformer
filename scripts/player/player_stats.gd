@@ -49,22 +49,23 @@ func update_exp(value: int) -> void:
 	if current_exp >= level_dict[str(level)] and level < 9:
 		var leftover:int = current_exp - level_dict[str(level)]
 		current_exp = leftover
-		on_levelup()
+		on_level_up()
 		level += 1
 		
 	elif current_exp >= level_dict[str(level)] and level == 9:
-			current_exp = level_dict[str(level)]
-
-func on_levelup() -> void:
+		current_exp = level_dict[str(level)]
+		
+func on_level_up() -> void:
 	current_mana = base_mana + bonus_mana
 	current_health = base_health + bonus_health
-	pass 
+
 func update_health(type: String, value: int) -> void:
-	match type: 
+	match type:
 		"Increase":
 			current_health += value
 			if current_health >= max_health:
-				current_health = max_health
+				current_health == max_health
+		
 
 
 

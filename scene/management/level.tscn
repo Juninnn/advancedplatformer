@@ -63,100 +63,120 @@ environment = SubResource( 2 )
 position = Vector2( 43, 125 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D2" type="Light2D" parent="."]
 position = Vector2( -275, 117 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D3" type="Light2D" parent="."]
 position = Vector2( -466, 124 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D4" type="Light2D" parent="."]
 position = Vector2( 74, 310 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D6" type="Light2D" parent="."]
 position = Vector2( -209, 313 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D7" type="Light2D" parent="."]
 position = Vector2( 553, 123 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D8" type="Light2D" parent="."]
 position = Vector2( 389, 311 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D9" type="Light2D" parent="."]
 position = Vector2( 751, 195 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D10" type="Light2D" parent="."]
 position = Vector2( 1134, 92 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D11" type="Light2D" parent="."]
 position = Vector2( 1199, 240 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D12" type="Light2D" parent="."]
 position = Vector2( 1387, 131 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D13" type="Light2D" parent="."]
 position = Vector2( 1489, 315 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D14" type="Light2D" parent="."]
 position = Vector2( 878, 158 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D19" type="Light2D" parent="."]
 position = Vector2( 2514, 275 )
 texture = ExtResource( 7 )
-texture_scale = 0.23
+texture_scale = 0.29
+energy = 0.8
 
 [node name="Light2D20" type="Light2D" parent="."]
 position = Vector2( 2518, 21 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D21" type="Light2D" parent="."]
 position = Vector2( 2994, 208 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D15" type="Light2D" parent="."]
 position = Vector2( 1803, 222 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D16" type="Light2D" parent="."]
 position = Vector2( 1866, 219 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D17" type="Light2D" parent="."]
 position = Vector2( 1778, 54 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [node name="Light2D18" type="Light2D" parent="."]
 position = Vector2( 2253, 164 )
 texture = ExtResource( 7 )
 texture_scale = 0.23
+energy = 0.8
 
 [connection signal="body_entered" from="fallzone" to="fallzone" method="_on_fallzone_body_entered"]

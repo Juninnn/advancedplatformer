@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rainbowlaser.ogg-6f944e4b80939d99d03a41268e7db6b4.oggstr"
+
+[deps]
+
+source_file="res://assets/item/Packs/Sewers pack files/Sounds/rainbowlaser.ogg"
+dest_files=[ "res://.import/rainbowlaser.ogg-6f944e4b80939d99d03a41268e7db6b4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Sun Tribe interior.ogg-a26a7a5f896443b0a7c1616da6feb1d0.oggstr"
+
+[deps]
+
+source_file="res://assets/item/Packs/Meta data assets files/sounds/music/Sun Tribe interior.ogg"
+dest_files=[ "res://.import/Sun Tribe interior.ogg-a26a7a5f896443b0a7c1616da6feb1d0.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

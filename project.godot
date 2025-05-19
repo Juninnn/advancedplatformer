@@ -48,14 +48,13 @@ config/name="AdvancedPlatformer"
 run/main_scene="res://scene/management/level.tscn"
 config/icon="res://icon.png"
 
-[debug]
-
-settings/stdout/print_fps=true
-
 [display]
 
 window/size/width=320
 window/size/height=180
+window/size/test_width=320
+window/size/test_height=180
+window/vsync/use_vsync=false
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
@@ -110,7 +109,7 @@ jump={
 }
 attack={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":81,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"canceled":false,"pressed":false,"doubleclick":false,"script":null)
  ]
 }
 defense={
@@ -120,7 +119,7 @@ defense={
 }
 crouch={
 "deadzone": 0.5,
-"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":67,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
  ]
 }
 
@@ -139,15 +138,9 @@ quality/driver/driver_name="GLES2"
 quality/driver/fallback_to_gles2=true
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
-quality/shading/use_physical_light_attenuation=true
-quality/filters/anisotropic_filter_level=6
-quality/filters/use_nearest_mipmap_filter=true
 gles2/compatibility/disable_half_float=true
 gles3/shaders/shader_compilation_mode=2
 gles3/shaders/shader_compilation_mode.mobile=2
 gles3/shaders/shader_compilation_mode.web=2
 gles3/shaders/max_simultaneous_compiles=3
-quality/filters/msaa=3
 environment/default_environment="res://default_env.tres"
-quality/subsurface_scattering/quality=2
-quality/voxel_cone_tracing/high_quality=true

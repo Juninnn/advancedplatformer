@@ -180,4 +180,4 @@ texture = ExtResource( 7 )
 texture_scale = 0.23
 energy = 0.8
 
-[connection signal="body_entered" from="fallzone" to="fallzone" method="_on_fallzone_body_entered"]
+[connection signal="body_entered" from="fallzone" to="Player" method="_on_fallzone_body_entered"]

@@ -18,10 +18,8 @@ glow_strength = 1.65
 glow_hdr_threshold = 1.5
 glow_high_quality = true
 
-
 [node name="Level" type="Node2D"]
 position = Vector2( 2, 0 )
-
 
 [node name="LevelDesign" type="Node2D" parent="."]
 
